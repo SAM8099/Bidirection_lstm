@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/HP/Desktop/VSCode/Bidirection_lstm/mlruns/956865951271480810/7d2a7239df9f46f8b274cad4706e2609/artifacts
+end_time: 1721745340070
+entry_point_name: ''
+experiment_id: '956865951271480810'
+lifecycle_stage: active
+run_id: 7d2a7239df9f46f8b274cad4706e2609
+run_name: IMDB_bidirection_lstm_run:20240723-200529
+run_uuid: 7d2a7239df9f46f8b274cad4706e2609
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721745330183
+status: 3
+tags: []
+user_id: HP

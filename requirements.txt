@@ -1,0 +1,11 @@
+dvc
+mlflow
+numpy
+pandas
+scikit-learn
+tensorflow
+tensorboard
+nltk
+matplotlib
+seaborn
+streamlit

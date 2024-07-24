@@ -1,9 +1,10 @@
 from pathlib import Path
 import tensorflow as tf
-import bentoml
+from tensorflow.keras.layers import Sequential
+from tensorflow.keras.models import load_model # type: ignore
+import bentoml # type: ignore
+from tensorflow.keras.layers import TFSMLayer # type: ignore
 
-def load_model_and_save_it_in_bentoml(model_file:Path) -> None:
-    model = tf.keras.models.load_model(model_file)
-    bento_model = bentoml.tensorflow.save_model("bento_keras_model", model)
-    print(f"Bento_model : {bento_model.tag}")
-    
+model1 = load_model('models\BI_LSTM_model.h5' )
+bentoml.tensorflow.save_model('bento_model', model1)
+print(f"{model1.tag}")

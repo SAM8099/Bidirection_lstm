@@ -3,11 +3,12 @@ mlflow
 numpy
 pandas
 scikit-learn
-tensorflow
+tensorflow==2.16.1
 tensorboard
 nltk
 matplotlib
 seaborn
 streamlit
 ipykernel
-bentoml
+bentoml== 1.0.25
+wrapt==1.14.1

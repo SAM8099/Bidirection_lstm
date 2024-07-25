@@ -1,6 +1,6 @@
 from pathlib import Path
 import tensorflow as tf
-from tensorflow.keras.layers import Sequential
+from tensorflow.keras.layers import Sequential # type: ignore
 from tensorflow.keras.models import load_model # type: ignore
 import bentoml # type: ignore
 from tensorflow.keras.layers import TFSMLayer # type: ignore

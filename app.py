@@ -13,6 +13,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.datasets import imdb
 
 model = load_model("models/BI_LSTM_model.h5")
+model.load_weights("models/model_weights.weights.h5")
 word_index = imdb.get_word_index()
 
 def preprocess_text(text):
